@@ -5,7 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(({mode}) => {
   return {
-    base: '/YOUR_REPO_NAME/',
+    base: 'https://kktan1991.github.io/markdown/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
