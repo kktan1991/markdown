@@ -1,0 +1,5 @@
+{
+  "name": "Deterministic Markdown Converter",
+  "description": "A strict Markdown-to-Text converter that strips formatting while preserving structure and converting tables to readable lines.",
+  "requestFramePermissions": []
+}

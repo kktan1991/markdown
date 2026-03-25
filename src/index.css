@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .markdown-body h1 {
+    @apply text-3xl font-bold mb-4 mt-6;
+    color: #000000;
+  }
+  .markdown-body h1:first-child {
+    @apply mt-0;
+  }
+  .markdown-body h2 {
+    @apply text-2xl font-semibold mb-3 mt-8 border-b pb-2;
+    color: #000000;
+    border-color: #e5e7eb;
+  }
+  .markdown-body h3 {
+    @apply text-xl font-medium mb-2 mt-6;
+    color: #000000;
+  }
+  .markdown-body p {
+    @apply mb-4 leading-relaxed;
+    color: #1f2937;
+  }
+  .markdown-body ul {
+    @apply list-disc pl-8 mb-4;
+    color: #1f2937;
+  }
+  .markdown-body ol {
+    @apply list-decimal pl-8 mb-4;
+    color: #1f2937;
+  }
+  .markdown-body li {
+    @apply mb-1;
+  }
+  .markdown-body blockquote {
+    @apply border-l-4 pl-4 italic mb-4 py-1;
+    border-color: #d1d5db;
+    color: #4b5563;
+  }
+  .markdown-body table {
+    @apply w-full border-collapse mb-6 text-sm;
+  }
+  .markdown-body th, .markdown-body td {
+    @apply border px-4 py-2 text-left;
+    border-color: #e5e7eb;
+  }
+  .markdown-body th {
+    @apply font-semibold;
+    background-color: #f9fafb;
+    color: #000000;
+  }
+  .markdown-body a {
+    @apply hover:underline transition-colors;
+    color: #2563eb;
+  }
+  .markdown-body a:hover {
+    color: #1e40af;
+  }
+  .markdown-body hr {
+    @apply my-8 border-t;
+    border-color: #e5e7eb;
+  }
+  .markdown-body img {
+    @apply rounded-lg max-w-full h-auto mb-4 border;
+    border-color: #e5e7eb;
+  }
+}
